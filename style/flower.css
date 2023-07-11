@@ -73,7 +73,6 @@ body {
 
 .pictures {
     width: 1920px;
-    height: 4867px;
     background: #FFF;
 
 }
@@ -124,7 +123,7 @@ body {
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    
+
 }
 
 .para-three {
@@ -136,4 +135,124 @@ body {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+.deal-nav {
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    border: 8px 8px 8px 8px;
+}
+
+.deal-head {
+    margin-top: 230px;
+    margin-left: 430px;
+    margin-bottom: 12px;
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deal-para {
+    color: rgba(39, 39, 39, 0.60);
+    margin-left: 395px;
+    margin-left: 400px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.btn-deal {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+.second-pic {
+    width: 318px;
+    height: 420px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.insta {
+    width: 1920px;
+    background: #FFF;
+}
+
+.insta-head {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.insta-para {
+    width: 594px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 670px;
+    margin-right: 670px;
+}
+
+.email-sec {
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    background: url('../Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    margin-left: 240px;
+}
+
+.head-email {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+
+}
+
+.email-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.btn-email {
+    border-radius: 8px;
+    background: #E55473;
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+
+}
+
+.email-input {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
 }
