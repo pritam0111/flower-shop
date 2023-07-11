@@ -141,6 +141,7 @@ body {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
 .insta {
     width: 1920px;
     background: #FFF;
@@ -250,24 +251,27 @@ body {
 }
 
 .deal {
-    width: 1922px;
+    width: 2000px;
     height: 620px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
+    margin: 8px 8px 8px 8px;
+    
+
 }
 
 .deal-head {
     color: #272727;
+    font-family: Lato;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-top: 230px;
-    margin-left: 430px;
-    
 }
-.deal-para{
+
+.deal-para {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -275,12 +279,13 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-left: 500px;
 }
-.btn-deal{
-padding: 20px 43px;
-align-items: flex-start;
-}
-.img-deal{
-    width: 318px;
-height: 420px;
+
+.btn-deal {
+    
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+   
 }
